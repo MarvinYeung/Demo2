@@ -62,7 +62,7 @@ project-name/
 
 - **Daniel** - BCIT CST Student with a passion for creating user-friendly applications. Fun fact: Loves solving Rubik's Cubes in under a minute.
 - **Marvin** - BCIT CST Student, Meow. 
-- **Baltaj** - BCIT CST Student with a passion to learn how to code. 
+- **Baltaj** - BCIT CST Student with a passion to learn how to  code.  
 ---
 
 ## Acknowledgments
