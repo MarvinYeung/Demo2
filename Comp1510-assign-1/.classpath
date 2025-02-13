@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Comp1510-assign-1-template/src"/>
+	<classpathentry kind="lib" path="__MACOSX/Comp1510-assign-1-template/lib/._checkstyle-10.20.1-all.jar"/>
+	<classpathentry kind="lib" path="Comp1510-assign-1-template/lib/checkstyle-10.20.1-all.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

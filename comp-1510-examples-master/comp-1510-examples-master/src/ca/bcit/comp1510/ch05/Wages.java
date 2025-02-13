@@ -1,0 +1,52 @@
+package ca.bcit.comp1510.ch05;
+
+import java.text.NumberFormat;
+import java.util.Scanner;
+
+/**
+ * Demonstrates the use of an if-else statement.
+ * 
+ * @author Lewis & Loftus 9e
+ * @author BCIT
+ * @version 2017
+ */
+public class Wages {
+
+    /**
+     * Cues the user for the numbers of hours worked and calculates wages.
+     * 
+     * @param args command-line arguments (unused)
+     */
+    public static void main(String[] args) {
+        
+        // regular pay rate
+        final double rate = 12.25;
+        
+        final double overtimeRate = rate * 1.5;
+        
+        // standard hours in a work week
+        final int standard = 40;
+
+        Scanner scan = new Scanner(System.in);
+
+        double pay;
+
+        System.out.print("Enter the number of hours worked: ");
+        int hours = scan.nextInt();
+
+        System.out.println();
+
+        // Pays overtime at "time and a half"
+        if (hours > standard) {
+            pay = standard * rate + (hours - standard) * overtimeRate;
+        } else {
+            pay = hours * rate;
+        }
+
+        NumberFormat fmt = NumberFormat.getCurrencyInstance();
+        System.out.println("Gross earnings: " + fmt.format(pay));
+        
+        scan.close();
+    }
+}
+
